@@ -28,7 +28,7 @@ const ResetPassword = () => {
         navigate("/");
       }, 2000);
     } catch (err) {
-      setMessage("Error resetting password. Try again.");
+      setMessage("The reset link is expired.");
     }
   };
 
