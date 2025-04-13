@@ -1,0 +1,133 @@
+body {
+  font-family: sans-serif;
+  background-color: #eeeded;
+  color: #333;
+  margin: 0;
+  padding-top: 60px; 
+}
+
+#root {
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffbf00; 
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000; 
+  text-align: center;
+  height: 35px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.section {
+  padding: 2em;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3rem;
+  
+}
+
+.btn-download {
+  background-color: #ffbf00;
+  border: 1px solid #ffbf00;
+  padding: 0.75em 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#download-windows:hover {
+  background-color: #ffca2b;
+  border: 1px solid #333;
+  color: #333;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 1em;
+  text-align: center;
+}
+
+.about-app-p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-me-p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-app-img {
+  width: 800px;
+}
+
+.about-me-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.donate_img {
+  width: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.reset-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reset-container input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #ccc;
+  color: #333;
+}
+
+.reset-container button {
+  background-color: #ffbf00;
+  border: 1px solid #ffbf00;
+  padding: 0.75em 1.5em;
+  margin-top: 80px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reset-container button:hover {
+  background-color: #ffca2b;
+  border: 1px solid #333;
+  color: #333;
+}
+
+#download-linux {
+  margin-left: 30px;
+  background: rgba(255,191,0,0.5);
+  border: 0px solid #ffca2b;
+}
+
+#download-linux:hover {
+  cursor: default;
+  border: 0px solid #ffca2b;
+}
