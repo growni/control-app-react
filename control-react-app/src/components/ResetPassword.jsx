@@ -19,7 +19,7 @@ const ResetPassword = () => {
     }
 
     try {
-      const response = await axios.post('https://control-app-free.netlify.app/api/auth/reset-password', {
+      const response = await axios.post('https://control-app-backend-aqm1.onrender.com/api/auth/reset-password', {
         token,
         password: password,
       });
