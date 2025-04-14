@@ -18,6 +18,9 @@ const ResetPassword = () => {
       return;
     }
 
+    console.log("Token from URL: " + token);
+    console.log("Password: " + password);
+
     try {
       const response = await axios.post('https://control-app-backend-aqm1.onrender.com/api/auth/reset-password', {
         token,
