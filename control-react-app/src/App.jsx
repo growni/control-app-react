@@ -7,6 +7,8 @@ import AboutApp from '../src/components/AboutApp';
 import Donate from '../src/components/Donate';
 import './App.css';
 import ResetPassword from '../src/components/ResetPassword';
+import AboutMeCarousel from './components/AboutMeCarousel';
+import AboutAppCarousel from './components/AboutAppCarousel';
 
 function HomePage() {
   return (
@@ -22,8 +24,8 @@ function HomePage() {
 
       <main>
         <Element name="download"><Download /></Element>
-        <Element name="aboutApp"><AboutApp /></Element>
-        <Element name="aboutMe"><AboutMe /></Element>
+        <Element name="aboutApp"><AboutAppCarousel /></Element>
+        <Element name="aboutMe"><AboutMeCarousel /></Element>
         <Element name="donate"><Donate /></Element>
       </main>
 

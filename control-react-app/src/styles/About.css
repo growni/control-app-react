@@ -1,0 +1,106 @@
+.about-app-section,
+.about-me-section {
+  position: relative;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  max-width: 95%;
+}
+
+.about-app-carousel-wrapper,
+.about-me-carousel-wrapper {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.about-app-carousel .about-app-slide,
+.about-me-carousel .about-me-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-app-carousel-img,
+.about-me-carousel-img {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.about-app-slide,
+.about-me-slide {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-between;
+  align-items: stretch; /* Stretch to match height */
+  padding: 40px 60px;
+  gap: 40px;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.carousel-item {
+  flex: 0 1 30%; /* Allow them to shrink and grow a bit */
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Center item gets special treatment */
+.side-item {
+  background-color: hsl(46, 100%, 97%); /* Light tinted background */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Side items have simpler background */
+.center-item {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about-app-p,
+.about-me-p {
+  max-width: 300px;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Indie Flower';
+  font-size: 22px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 2rem;
+  z-index: 10;
+  cursor: pointer;
+  color: #333;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.arrow-left {
+  left: -70px;
+}
+
+.arrow-right {
+  right: -70px;
+}
