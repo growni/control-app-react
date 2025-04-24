@@ -1,6 +1,5 @@
 import Slider from "react-slick";
 import AboutMe from './AboutMe';
-import AboutApp from './AboutApp';
 
 const AboutCarousel = () => {
   const settings = {

@@ -7,7 +7,6 @@ import app_image_install from '../assets/control_install_img.png';
 import app_image_uninstall from '../assets/control_uninstall_img.png';
 import app_image_debloat from '../assets/control_debloat_img.png';
 import app_image_profile from '../assets/control_profile_img.png';
-import games from '../assets/games.png';
 import '../styles/About.css'; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -67,7 +66,7 @@ const AboutApp = () => {
         <img className="about-app-img" src={app_image_main} alt="Avatar" />
       </div>
       <div className="carousel-item side-item">
-        <p className="about-app-p">The next slides are a brief overview of the app. For more details and full documentation visit my <a href="https://github.com/growni/control-app-JavaFX">github</a> page.</p>
+        <p className="about-app-p">The next slides are a brief overview of the app. For more details and full documentation visit my <a href="https://github.com/growni/control-app-JavaFX" target='_blank'>github</a> page.</p>
       </div>
     </div>
   </div>
