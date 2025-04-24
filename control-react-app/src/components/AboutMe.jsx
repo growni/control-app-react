@@ -4,7 +4,7 @@ import avatar from '../assets/avatar.png';
 import humble_stones from '../assets/humble_stones.jpg';
 import cloud_forest from '../assets/cloud_forest.jpg';
 import games from '../assets/games.png';
-import '../styles/AboutMe.css'; 
+import '../styles/About.css'; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from 'react';

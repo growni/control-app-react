@@ -8,7 +8,7 @@ import app_image_uninstall from '../assets/control_uninstall_img.png';
 import app_image_debloat from '../assets/control_debloat_img.png';
 import app_image_profile from '../assets/control_profile_img.png';
 import games from '../assets/games.png';
-import '../styles/AboutMe.css'; 
+import '../styles/About.css'; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from 'react';
