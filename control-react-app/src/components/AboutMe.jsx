@@ -57,7 +57,7 @@ const AboutMe = () => {
         <img className="about-me-img" src={avatar} alt="Avatar" />
       </div>
       <div className="carousel-item side-item">
-        <p className="about-me-p">I love playing video games, do photography and exploring wild places far from civilization. If you are interested to learn more about me or my app you can connect with me on <a href="https://www.linkedin.com/in/aleks310/" target='_blank'>LinkedIn</a>.</p>
+        <p className="about-me-p">I love playing video games, do photography and explore wild places far from civilization. If you are interested to learn more about me or my app you can connect with me on <a href="https://www.linkedin.com/in/aleks310/" target='_blank'>LinkedIn</a>.</p>
       </div>
     </div>
   </div>

@@ -60,13 +60,13 @@ const AboutApp = () => {
   <div className="about-app-slide">
     <div className="slide-content">
       <div className="carousel-item side-item">
-      <p className="about-app-p">Control is a desktop application built with JavaFX and Spring Boot that helps you easily install/uninstall different apps, as well as remove bloaters. <br></br>The app is free to use and is still in early stage of development.</p>
+      <p className="about-app-p">Control is a desktop application built with JavaFX and Spring Boot that helps you easily install/uninstall different apps. <br></br>The app is free to use and still in early stage of development.</p>
       </div>
       <div className="carousel-item center-item">
         <img className="about-app-img" src={app_image_main} alt="Avatar" />
       </div>
       <div className="carousel-item side-item">
-        <p className="about-app-p">The next slides are a brief overview of the app. For more details and full documentation visit my <a href="https://github.com/growni/control-app-JavaFX" target='_blank'>github</a> page.</p>
+        <p className="about-app-p">The next slides are a brief overview. For more details and full documentation visit my <a href="https://github.com/growni/control-app-JavaFX" target='_blank'>github</a> page.</p>
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@ const AboutApp = () => {
       <img src={app_image_login} alt="Login image placeholder" className="about-app-carousel-img" />
       </div>
       <div className="carousel-item center-item">
-      <p className="about-app-p">Simple login and registration pages. Those operations are not available in the website and can only be done through the app.</p>
+      <p className="about-app-p">Simple login and registration pages. Those operations are not available on the website and can only be done through the app.</p>
       </div>
       <div className="carousel-item side-item">
       <img src={app_image_register} alt="Register image placeholder" className="about-app-carousel-img" />
@@ -95,7 +95,7 @@ const AboutApp = () => {
     <img src={app_image_install} alt="Install image placeholder" className="about-app-carousel-img" />
       </div>
       <div className="carousel-item center-item">
-      <p className="about-app-p">A small, but growing list of apps that can be selected for installation or removal. The process is silent and executed in the background, allowing you to focus on your other tasks.</p>
+      <p className="about-app-p">A small, but growing list of apps that can be selected for installation or removal. If possible, the process is silent and executed in the background, allowing you to focus on your other tasks.</p>
       </div>
       <div className="carousel-item side-item">
       <img src={app_image_uninstall} alt="Uninstall image placeholder" className="about-app-carousel-img" />
@@ -108,7 +108,7 @@ const AboutApp = () => {
   <div className="about-app-slide">
     <div className="slide-content">
     <div className="carousel-item side-item">
-    <p className="about-app-p">The integrated scanner finds applications on your machine that are considered as bloater apps. Most often, those are not needed and rarely used and are only aggravating the performance of your computer. However, always be cautious and double check the app before removing it. </p>
+    <p className="about-app-p">The integrated scanner retrieves all store apps that are installed on your machine. Most often, those are not needed and rarely used and are only aggravating the performance and memory of your computer. However, always be cautious and double check the app before removing it. </p>
       </div>
       <div className="carousel-item center-item">
       <img src={app_image_debloat} alt="Debloat image placeholder" className="about-app-carousel-img" />
