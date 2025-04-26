@@ -1,8 +1,8 @@
 import QR_paypal from '../assets/QR_paypal.png';
 import QR_revolut from '../assets/QR_revolut.png';
 
-const Donate = () => (
-  <section id="donate" className="section">
+const DonateDesktop = () => (
+  <section id="donate" className="section hideAfter600">
     <h2> <span style={{ color: '#ffca2b' }}>Support</span> My Work</h2>
     <p>If you like what I'm building and want to support future development, feel free to donate</p>
     <div style={{ display: 'flex', gap: '40px', justifyContent: 'center', marginTop: '20px' }}>
@@ -18,4 +18,4 @@ const Donate = () => (
   </section>
 );
 
-export default Donate;
+export default DonateDesktop;
