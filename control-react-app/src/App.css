@@ -6,6 +6,7 @@ body {
   color: #333;
   margin: 0;
   padding-top: 60px; 
+
 }
 
 #root {
@@ -38,7 +39,6 @@ nav a:hover {
 }
 
 .section {
-  padding: 2em;
   border-bottom: 1px solid rgb(190, 190, 190);
   text-align: center;
   width: 100%;
@@ -53,6 +53,7 @@ nav a:hover {
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
+  width: 15rem;
 }
 
 #download-windows:hover {
@@ -65,25 +66,6 @@ footer {
   background-color: #ccc;
   padding: 1em;
   text-align: center;
-}
-
-.about-app-p {
-  padding: 0px;
-  margin: 0px;
-}
-
-.about-me-p {
-  padding: 0px;
-  margin: 0px;
-}
-
-.about-app-img {
-  width: 600px;
-}
-
-.about-me-img {
-  width: 150px;
-  border-radius: 50%;
 }
 
 .donate_img {
@@ -123,6 +105,10 @@ footer {
   color: #333;
 }
 
+#download {
+  padding-bottom: 1rem;
+}
+
 #download-linux {
   margin-left: 30px;
   background: rgba(255,191,0,0.5);
@@ -132,39 +118,4 @@ footer {
 #download-linux:hover {
   cursor: default;
   border: 0px solid #ffca2b;
-}
-
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  main {
-    padding: 1rem;
-  }
-
-  .reset-container {
-    margin: 1rem;
-    padding: 1.5rem;
-  }
-
-  .about-app-img {
-    width: 100%;
-    max-width: 95vw;
-    height: auto;
-  }
-
-  .donate_img {
-    display: none;
-  }
-
-  .donate-link {
-    display: block;
-    margin: 1rem auto;
-    font-weight: bold;
-    text-align: center;
-    color: #ffbf00;
-    text-decoration: underline;
-  }
 }

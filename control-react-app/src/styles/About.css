@@ -37,6 +37,15 @@
   align-items: center;
 }
 
+.about-app-img {
+  width: 600px;
+}
+
+.about-me-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
 .slide-content {
   display: flex;
   flex-direction: row; /* Horizontal layout */
@@ -45,6 +54,8 @@
   padding: 40px 60px;
   gap: 40px;
   flex-wrap: nowrap; /* Prevent wrapping */
+  max-width: 100%;
+  overflow:hidden;
 }
 
 .carousel-item {
