@@ -36,16 +36,16 @@ const AboutMe = () => {
   return (
     <section id="about-me" className="about-me-section">
       <h2>
-  {currentSlide === 0 && (
-    <>About <span style={{ color: '#ffca2b' }}>Me</span></>
-  )}
-  {currentSlide === 1 && (
-    <>About <span style={{ color: '#ffca2b' }}>Photography</span></>
-  )}
-  {currentSlide === 2 && (
-    <>About <span style={{ color: '#ffca2b' }}>Gaming</span></>
-  )}
-</h2>
+        {currentSlide === 0 && (
+          <>About <span style={{ color: '#ffca2b' }}>Me</span></>
+        )}
+        {currentSlide === 1 && (
+          <>About <span style={{ color: '#ffca2b' }}>Photography</span></>
+        )}
+        {currentSlide === 2 && (
+          <>About <span style={{ color: '#ffca2b' }}>Gaming</span></>
+        )}
+      </h2>
       <div className="about-me-carousel-wrapper">
       <Slider {...settings} className="about-me-carousel">
   <div className="about-me-slide">

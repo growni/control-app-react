@@ -24,7 +24,7 @@ const AboutApp = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
