@@ -11,6 +11,7 @@ import AboutMeCarousel from './components/AboutMeCarousel';
 import AboutAppCarousel from './components/AboutAppCarousel';
 import DonateMobile from './components/DonateMobile';
 import AboutAppNew from './components/AboutAppNew';
+import AboutMeNew from './components/AboutMeNew';
 
 function HomePage() {
   return (
@@ -27,8 +28,9 @@ function HomePage() {
       <main>
         <Element name="download"><Download /></Element>
         {/* <Element name="aboutApp"><AboutAppCarousel /></Element> */}
-        <Element name="aboutApp"><AboutAppNew /></Element>
-        <Element name="aboutMe"><AboutMeCarousel /></Element>
+        <Element name="aboutApp"><AboutAppNew/></Element>
+        {/* <Element name="aboutMe"><AboutMeCarousel /></Element> */}
+        <Element name="aboutApp"><AboutMeNew/></Element>
         <Element name="donate"><DonateDesktop /></Element>
         <Element name="donate"><DonateMobile /></Element>
 

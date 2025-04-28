@@ -51,7 +51,7 @@ const AboutMe = () => {
   <div className="about-me-slide">
     <div className="slide-content">
       <div className="carousel-item side-item">
-      <p className="about-me-p">My name is Aleks, and I am a self-taught developer. I am curious about technologies and my goal is to build useful tools that help people save time and get organized.</p>
+        <p className="about-me-p">My name is Aleks, and I am a self-taught developer. I am curious about technologies and my goal is to build useful tools that help people save time and get organized.</p>
       </div>
       <div className="carousel-item center-item">
         <img className="about-me-img" src={avatar} alt="Avatar" />
@@ -64,14 +64,14 @@ const AboutMe = () => {
 
   <div className="about-me-slide">
     <div className="slide-content">
-    <div className="carousel-item side-item">
-      <img src={humble_stones} alt="Placeholder 1" className="about-me-carousel-img" />
+      <div className="carousel-item side-item">
+       <img src={humble_stones} alt="Placeholder 1" className="about-me-carousel-img" />
       </div>
       <div className="carousel-item center-item">
-      <p className="about-me-p">I love spending time in the nature with friends and familiy. It helps me detach from the busy everyday life and connect more with myself. Of course, this is the perfect opportunity to take my camera with me and snap some photos. </p>
+        <p className="about-me-p">I love spending time in the nature with friends and familiy. It helps me detach from the busy everyday life and connect more with myself. Of course, this is the perfect opportunity to take my camera with me and snap some photos. </p>
       </div>
       <div className="carousel-item side-item">
-      <img src={cloud_forest} alt="Placeholder 2" className="about-me-carousel-img" />
+        <img src={cloud_forest} alt="Placeholder 2" className="about-me-carousel-img" />
       </div>
     </div>
   </div>
