@@ -10,12 +10,12 @@ export default function DonateMobile(){
 
 
     return (
-        <section className="donateMobile showBelow600">
+        <section id="donate" className="donateMobile">
             <div className="donateM-header">
                 <h2> <span style={{ color: '#ffca2b' }}>Support</span> My Work</h2>
-                <p>If you like what I'm building and want to support future development, feel free to donate</p>          
+                <p>If you like what I'm building and want to support future development, feel free to donate.</p>          
             </div>
-            <div className="donateM-links">
+            <div className="donateM-links showBelow600">
                 <div className='logo-box' onClick={()=> handleClick("https://www.paypal.com/donate/?hosted_button_id=WV649AX6PXNSJ&source=qr")}>
                     <img src={payPalLogo} alt="Paypal Logo" />
                 </div>

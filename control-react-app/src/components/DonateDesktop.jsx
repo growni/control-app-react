@@ -5,7 +5,7 @@ const DonateDesktop = () => (
   <section id="donate" className="section hideAfter600">
     <h2> <span style={{ color: '#ffca2b' }}>Support</span> My Work</h2>
     <p>If you like what I'm building and want to support future development, feel free to donate</p>
-    <div style={{ display: 'flex', gap: '40px', justifyContent: 'center', marginTop: '20px' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
       <div style={{ textAlign: 'center' }}>
         <img className="donate_img" src={QR_paypal} alt="QR Code paypal"  />
         <p>PayPal</p>

@@ -56,7 +56,8 @@ export default function AboutAppNew({images}){
         <section className="aboutApp-section">
 
             <h2>
-                {currentSlide === 0 && (
+                <>About the <span style={{ color: '#ffca2b' }}>App</span></>
+                {/* {currentSlide === 0 && (
                 <>About the <span style={{ color: '#ffca2b' }}>App</span></>
                 )}
                 {currentSlide === 1 && (
@@ -70,7 +71,7 @@ export default function AboutAppNew({images}){
                 )}
                 {currentSlide === 4 && (
                 <><span style={{ color: '#ffca2b' }}>Profile</span></>
-                )}
+                )} */}
             </h2>
 
 

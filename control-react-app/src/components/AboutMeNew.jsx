@@ -27,7 +27,6 @@ export default function AboutMeNew(){
                 speed: 500,
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                // arrows: false
               }
             },
             {
@@ -54,7 +53,9 @@ export default function AboutMeNew(){
         <section className="aboutApp-section">
 
             <h2>
-                {currentSlide === 0 && (
+                <>About <span style={{ color: '#ffca2b' }}>Me</span></>
+
+                {/* {currentSlide === 0 && (
                 <>About the <span style={{ color: '#ffca2b' }}>App</span></>
                 )}
                 {currentSlide === 1 && (
@@ -68,7 +69,7 @@ export default function AboutMeNew(){
                 )}
                 {currentSlide === 4 && (
                 <><span style={{ color: '#ffca2b' }}>Profile</span></>
-                )}
+                )} */}
             </h2>
 
 
