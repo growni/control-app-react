@@ -102,7 +102,30 @@ export default function AboutAppNew({ images }) {
 
     return (
         <section className="aboutApp-section">
+<<<<<<< HEAD
             <h2>{getTitleForAboutApp(currentSlide)}</h2>
+=======
+
+            <h2>
+                <>About the <span style={{ color: '#ffca2b' }}>App</span></>
+                {/* {currentSlide === 0 && (
+                <>About the <span style={{ color: '#ffca2b' }}>App</span></>
+                )}
+                {currentSlide === 1 && (
+                <>Login / <span style={{ color: '#ffca2b' }}>Register</span></>
+                )}
+                {currentSlide === 2 && (
+                <>Install / <span style={{ color: '#ffca2b' }}>Uninstall</span></>
+                )}
+                {currentSlide === 3 && (
+                <>Clean up / <span style={{ color: '#ffca2b' }}>Debloat</span></>
+                )}
+                {currentSlide === 4 && (
+                <><span style={{ color: '#ffca2b' }}>Profile</span></>
+                )} */}
+            </h2>
+
+>>>>>>> 8a5cfc343e960762faac8fd1a940f314f5d707a3
 
             <UiSlider settings={settings}>
                 {/* Your slides here... */}

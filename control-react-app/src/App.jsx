@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import Download from '../src/components/Download';
@@ -12,27 +12,43 @@ import AboutAppCarousel from './components/AboutAppCarousel';
 import DonateMobile from './components/DonateMobile';
 import AboutAppNew from './components/AboutAppNew';
 import AboutMeNew from './components/AboutMeNew';
+import PopUpMenu from './components/UI/popUp';
 
 function HomePage() {
+
+  //TODO: Add Pop with scans
+  // const [isOpenPop, setIsOpen] = useState(true);
+
+  // const handlePopUp = ()=>{
+  //   setIsOpen(!isOpenPop)
+  // }
+
   return (
     <div className="app-container">
       <header>
         <nav>
-          <ScrollLink className='hideAfter600' to="download" smooth={true} duration={500}>Download</ScrollLink>
-          <ScrollLink to="aboutApp" smooth={true} duration={800}>About App</ScrollLink>
-          <ScrollLink to="aboutMe" smooth={true} duration={1000}>About Me</ScrollLink>
-          <ScrollLink to="donate" smooth={true} duration={1500}>Donate</ScrollLink>
+          <div className='nav-links'>
+            <ScrollLink className='hideAfter600' to="download" smooth={true} duration={500}>Download</ScrollLink>
+            <ScrollLink to="aboutApp" smooth={true} duration={800}>About App</ScrollLink>
+            <ScrollLink to="aboutMe" smooth={true} duration={1000}>About Me</ScrollLink>
+            <ScrollLink handleOpen to="donate" smooth={true} duration={1500}>Donate</ScrollLink>
+          </div>
         </nav>
       </header>
 
       <main>
-        <Element name="download"><Download /></Element>
+        {/* {
+          isOpenPop && <PopUpMenu handleClose={handlePopUp} />
+        } */}
+
+
+        <Element style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}} name="download"><Download /></Element>
         {/* <Element name="aboutApp"><AboutAppCarousel /></Element> */}
         <Element name="aboutApp"><AboutAppNew/></Element>
         {/* <Element name="aboutMe"><AboutMeCarousel /></Element> */}
-        <Element name="aboutApp"><AboutMeNew/></Element>
-        <Element name="donate"><DonateDesktop /></Element>
-        <Element name="donate"><DonateMobile /></Element>
+        <Element name="aboutMe"><AboutMeNew/></Element>
+        {/* <Element name="donate"><DonateDesktop /></Element> */}
+        <Element style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}} name="donate"><DonateMobile /></Element>
 
       </main>
 
@@ -44,6 +60,12 @@ function HomePage() {
 }
 
 function App() {
+
+  
+
+
+
+
   return (
     <Router>
       <Routes>

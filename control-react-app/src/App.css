@@ -20,46 +20,85 @@ nav {
   width: 100%;
   background-color: #ffbf00; 
   color: white;
-  padding: 10px 20px;
+  padding: 10px 0px;
   z-index: 1000; 
   text-align: center;
   height: 35px;
 }
 
-nav a {
-  margin: 0 10px;
-  color: #000;
+
+.nav-links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+
+.nav-links a {
+  color: #333;
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.3s;
 }
 
-nav a:hover {
-  color: white;
+.nav-links a:hover {
+  color: #3333338f;
   cursor: pointer;
-}
+} 
+
 
 .section {
-  border-bottom: 1px solid rgb(190, 190, 190);
+  margin: 6rem 2rem 4rem 2rem;
+  /* border-bottom: 1px solid rgb(190, 190, 190); */
   text-align: center;
   width: 100%;
-  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background-color: hsl(46, 100%, 97%);
+  padding: 6rem 1rem 6rem 1rem !important;
+  max-width: 42rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   
+}
+
+h2{
+  margin: 0;
+  font-size: 3rem;
+  font-family: 'Indie Flower';
+  margin-top: 1rem;
+}
+
+.section h2{
+  margin: 0;
+  font-size: 3rem;
+  font-family: 'Indie Flower';
 }
 
 .btn-download {
   background-color: #ffbf00;
-  border: 1px solid #ffbf00;
+  color: #333;
+  /* border: 1px solid #ffbf00; */
+  border: none;
   padding: 0.75em 1.5em;
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
   width: 15rem;
+  transition: all 0.3s;
 }
 
 #download-windows:hover {
   background-color: #ffca2b;
-  border: 1px solid #333;
-  color: #333;
+  box-shadow: 0px 0px 12px 0px #33333363;
+  border: none;
+  /* color: #333; */
 }
 
 footer {
@@ -113,9 +152,10 @@ footer {
   margin-left: 30px;
   background: rgba(255,191,0,0.5);
   border: 0px solid #ffca2b;
+
 }
 
 #download-linux:hover {
-  cursor: default;
+  cursor: not-allowed;
   border: 0px solid #ffca2b;
 }
